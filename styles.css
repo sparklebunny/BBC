@@ -182,12 +182,22 @@ h1 {
 
 .newsitem a {
 	color: #1f4f82;
+}
+
+a {
 	text-decoration: none;
 }
 
-.newsitem a:hover {
+a:hover {
 	text-decoration: underline;
 }
+
+/*.video {
+	background-image: url("images/arrow.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 40px;
+}*/
 
 .video {
 	background-image: url("images/arrow.png");
@@ -199,3 +209,67 @@ h1 {
 .links {
 	line-height: 1.8em;
 }
+
+#watchlisten {
+	background-color: #EEEEEE;
+	float: right;
+	width: 370px;
+/*	height: 300px;
+*/	position: relative;
+	top: -80px;
+}
+
+h2 {
+	color: #505050;
+	margin: 10px 0 10px 10px;
+	font-size: 1.8em;
+}
+
+.boxes {
+	float: right;
+	margin: 10px 10px 0 0;
+	font-size: .8em;
+}
+
+.leftarrow {
+	float: left;
+	border-right: 1px solid white;
+}
+
+.wlblock {
+	float: left;
+	background-color: #d1700e;
+	width: 157px;
+	border-right: 1px solid white;
+}
+
+.wlblock a {
+	color: white;
+}
+
+.wlblock p {
+	margin: 12px 10px 12px 10px;
+}
+
+.rightarrow {
+	float: left;
+}
+
+#watchlisten ul {
+	margin: 0;
+	padding: 0 10px 10px 10px;
+
+}
+
+#watchlisten li {
+	list-style: none;
+	background-image: url("images/live.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding: 10px 0 10px 40px;
+	font-size: 1.4em;
+}
+
+/*.bb {
+	border-bottom: 1px solid #dddddd;
+}*/
